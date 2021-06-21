@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: rgb(173, 68, 27);
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(173, 68, 27);
+}
+#contenedor{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(247, 211, 9);
+}
+#circulo{
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/flecha.png);
+    background-size: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.top{
+    width: 800px;
+    margin: auto;
+}
+.encabezado{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+.datos{
+    float: right;
+    font-size: 0.7em;
+    padding: 15px;
+}
+.navbar{
+    clear: both;
+    background: rgba(88, 68, 10, 0.74);
+    margin: auto;
+    padding: 0.7em;
+    text-align: center;
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 10px 0;
+    }
+        .navbar ul li a{
+            display: inline-block;
+            text-decoration: none;
+            background: black;
+            color: rgb(248, 122, 4);
+            font-weight: bold;
+            width: 120px;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            vertical-align: text-bottom;
+        }
+.navbar ul li a:hover{
+    background: rgb(248, 122, 4);
+    color: black;
+
+    } 
+.bannerizq{
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+   margin-top: 50px;
+}  
+.subtitulo{
+    font-style: italic;
+    font-size: 0.8em;
+}
+.portada{
+    width: 800px;
+    padding: 1.5em;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(248, 122, 4);
+}
+.titulo p{
+    font-style: italic;
+}
+.bannerder{
+    float: right;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+   margin-top: 50px;
+}
+.accesos{
+    float: left;
+    width: 325px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 250px;
+    padding: 20px;
+}
+.imgaccesos{
+    border: 2px solid black;
+}
+.finfloat{
+    clear: both;
+}
+#nosotros, #propuestas, #especiales{
+    height: 600px;
+}
+.tituloseccion{
+    background-color: rgb(180, 4, 4);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+.nosotros{
+    float: left;
+    width: 950px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bannerlogo{
+    float: right;
+    width: 350px;
+    background-color: rgb(29, 121, 26);
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(190, 220, 20);
+    text-align: center;
+    margin-top: 20px;
+}
+#propuestas .izquierda{
+    width: 900px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#propuestas .derecha{
+    width: 250px;
+    float: right;
+    border-radius: 50%;
+}
+#especiales .derecha{
+    width: 900px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#especiales .izquierda{
+    width: 250px;
+    float: left;
+    border-radius: 50%;
+}
+.itemform{
+    margin-bottom: 5px;
+}
+#formcontacto{
+    padding: 1.2em;
+    width: 800px;
+    box-sizing: border-box;
+    float: left;
+}
+#formcontacto input, #formcontacto select, #formcontacto textarea{
+    width: 80%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#formcontacto input[type=submint]{
+    width: 30%;
+    text-align: center;
+}
+#formcontacto input[type=checkbox]{
+    width: auto;
+    text-align: left; 
+}
+.mapa{
+    float: right;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+.footer{
+    clear:both;
+    background:rgb(173, 68, 27);
+    color: rgb(247, 211, 9);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    height: 40px;
+}
