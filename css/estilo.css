@@ -173,7 +173,7 @@ header{
     float: left;
     border-radius: 50%;
 }
-.itemform{
+/*.itemform{
     margin-bottom: 5px;
 }
 #formcontacto{
@@ -196,7 +196,7 @@ header{
 #formcontacto input[type=checkbox]{
     width: auto;
     text-align: left; 
-}
+}*/
 .mapa{
     float: right;
     box-sizing: border-box;
