@@ -100,8 +100,11 @@ h1{
     padding: 10px;
     background: rgb(248, 122, 4);
 }
-.titulo p{
-    font-style: italic;
+.titulo {
+    font-size: 1.3em;
+}
+.titulo h2{
+    margin-bottom: 5px;
 }
 .accesos{
     float: left;
