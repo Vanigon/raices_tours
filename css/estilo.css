@@ -88,7 +88,8 @@ h1{
     }   
 .subtitulo{
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 .portada{
     width: 800px;
@@ -96,6 +97,7 @@ h1{
     box-sizing: border-box;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     padding: 10px;
     background: rgb(248, 122, 4);
@@ -107,22 +109,26 @@ h1{
     margin-bottom: 5px;
 }
 .accesos{
+    margin: 20px;
     float: left;
-    width: 390px;
+    width: 350px;
     box-sizing: border-box;
     overflow: hidden;
-    height: 250px;
-    padding: 20px;
+    height: 280px;
+    padding: 20px; 
+    border: 2px solid black;
 }
 .imgaccesos{
-    border: 2px solid black;
     box-sizing: border-box;
+}
+.imgaccesos img{
+    width: 100%;
 }
 .finfloat{
     clear: both;
 }
 #nosotros, #propuestas, #especiales, #contacto{
-    height: 600px;
+
     width: 800px;
     margin: auto;
 }
@@ -135,23 +141,40 @@ h1{
 }
 .nosotros{
     float: left;
-    width: 550px;
+    width: 500px;
     padding: 20px;
     box-sizing: border-box;
+    font-size: 1.15em;
 }
 .nosotros p{
     margin-bottom: 0.5em;
 }
 .bannerlogo{
     float: right;
-    width: 250px;
+    width: 300px;
     background-color: rgb(29, 121, 26);
     padding: 20px;
     box-sizing: border-box;
     color: rgb(190, 220, 20);
     text-align: center;
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: 0.9em;
+}
+.bannerlogo h4{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.varios{
+    width: 250px;
+    height: 166px;
+    box-sizing: border-box;
+    margin:auto;
+}
+.varios img{
+    width: 100%;
+}
+.bannerlogo p{
+    margin-top: 8px;
 }
 #propuestas .izquierda{
     width: 550px;
