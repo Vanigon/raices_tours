@@ -121,7 +121,6 @@ h1{
     float: left;
     width: 350px;
     box-sizing: border-box;
-    overflow: hidden;
     height: 280px;
     padding: 20px; 
     border: 2px solid black;
@@ -242,9 +241,6 @@ h1{
 .contactos{
     float: left;
 }
-.itemform{
-    margin-bottom: 5px;
-}
 #formcontacto{
     padding: 1.2em;
     width: 350px;
@@ -285,10 +281,10 @@ h1{
 }
 .footer{
     clear:both;
-    background:rgb(173, 68, 27);
+    background:rgb(161, 80, 47);
     color: rgb(247, 211, 9);
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
-    height: 40px;
+    height: 60px;
 }
