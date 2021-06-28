@@ -6,7 +6,7 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-    background: rgb(173, 68, 27);
+    background: rgb(161, 80, 47);
 }
 a{
     color:black;
@@ -46,15 +46,23 @@ header{
 h1{
     background-image: url(../img/logo\ final.png);
     background-size: cover;
-    width:261px; 
-    height:200px;
+    width:280px; 
+    height:215px;
     text-indent: -3000px;
     overflow: hidden;
 }
 .datos{
     float: right;
     font-size: 0.7em;
-    margin-top: 80px;
+    margin-top: 100px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.ig{
+    font-size: 0.7em;
+}
+.tel, .mail{
+    font-size: 1.2em;
 }
 .navbar{
     clear: both;
@@ -145,6 +153,7 @@ h1{
     padding: 20px;
     box-sizing: border-box;
     font-size: 1.15em;
+    text-align: justify;
 }
 .nosotros p{
     margin-bottom: 0.5em;
@@ -198,17 +207,23 @@ h1{
     float: left;
     border-radius: 50%;
 }
-/*.itemform{
+.izquierda, .derecha{
+    font-size: 1.1em;
+    text-align: justify;
+}
+.contactos{
+    float: left;
+}
+.itemform{
     margin-bottom: 5px;
 }
 #formcontacto{
     padding: 1.2em;
-    width: 800px;
+    width: 350px;
     box-sizing: border-box;
-    float: left;
 }
-#formcontacto input, #formcontacto select, #formcontacto textarea{
-    width: 80%;
+#formcontacto input, #formcontacto textarea{
+    width: 90%;
     padding: 0.8em;
     margin-bottom: 1em;
     border-radius: 10px;
@@ -218,16 +233,24 @@ h1{
     width: 30%;
     text-align: center;
 }
-#formcontacto input[type=checkbox]{
-    width: auto;
-    text-align: left; 
-}*/
+.btn:hover{
+    background-color: rgb(161, 80, 47);
+    color: blanchedalmond;
+}
+.contactos ul li{
+    display: inline;
+}
+.redes{
+    text-align: center;
+
+}
 .mapa{
     float: right;
     box-sizing: border-box;
     padding: 20px;
 
 }
+
 .footer{
     clear:both;
     background:rgb(173, 68, 27);
