@@ -19,14 +19,14 @@ header{
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/plantilla\ TP2.jpg);
+    background-image: url(../img/plantilla\ TP2.jpeg);
     background-attachment: fixed;
     background-size: cover;
 }
 #circulo{
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/flecha.png);
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/flecha2.png);
     background-size: cover;
     border-radius: 50%;
     position: fixed;
@@ -92,7 +92,6 @@ h1{
 .navbar ul li a:hover{
     background: rgb(248, 122, 4);
     color: black;
-
     }   
 .subtitulo{
     font-style: italic;
@@ -109,6 +108,7 @@ h1{
     text-align: center;
     padding: 10px;
     background: rgb(248, 122, 4);
+    border-radius: 10px;
 }
 .titulo {
     font-size: 1.3em;
@@ -125,6 +125,7 @@ h1{
     height: 280px;
     padding: 20px; 
     border: 2px solid black;
+    border-radius: 10px;
 }
 .imgaccesos{
     box-sizing: border-box;
@@ -146,6 +147,7 @@ h1{
     padding: 10px;
     margin-bottom: 10px;
     font-size: 2.5em;
+    border-radius: 10px;
 }
 .nosotros{
     float: left;
@@ -154,6 +156,7 @@ h1{
     box-sizing: border-box;
     font-size: 1.15em;
     text-align: justify;
+    margin-bottom: 20px;
 }
 .nosotros p{
     margin-bottom: 0.5em;
@@ -168,22 +171,27 @@ h1{
     text-align: center;
     margin-top: 20px;
     font-size: 0.9em;
+    border-radius: 10px;
 }
 .bannerlogo h4{
     font-size: 1.2em;
     margin-bottom: 5px;
 }
-.varios{
+.variosmari{
     width: 250px;
     height: 166px;
     box-sizing: border-box;
     margin:auto;
 }
-.varios img{
-    width: 100%;
+.variosmari img, .varios img{
+    width: 100%; 
+    border-radius: 10px;
 }
 .bannerlogo p{
     margin-top: 8px;
+}
+.varios{
+    margin-top: 45px;
 }
 #propuestas .izquierda{
     width: 550px;
@@ -194,7 +202,6 @@ h1{
 #propuestas .derecha{
     width: 250px;
     float: right;
-    border-radius: 50%;
 }
 #especiales .derecha{
     width: 550px;
@@ -208,8 +215,29 @@ h1{
     border-radius: 50%;
 }
 .izquierda, .derecha{
+    height: 330px;
     font-size: 1.1em;
     text-align: justify;
+}
+.derecha h3, .izquierda h3{
+    margin-bottom: 10px;
+}
+.derecha p, .izquierda p{
+    margin-bottom: 25px;
+}
+.btnseccion{
+    background: rgba(180, 4, 4, 0.349);
+    color: black;
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btnseccion:hover{
+    background: rgba(0, 0, 0, 0.123);
+    color: rgb(15, 15, 15);
 }
 .contactos{
     float: left;
@@ -229,11 +257,10 @@ h1{
     border-radius: 10px;
     font-size: 1em;
 }
-#formcontacto input[type=submint]{
-    width: 30%;
-    text-align: center;
+#formcontacto input[type=submit]{
+    width: 50%;
 }
-.btn:hover{
+#formcontacto input[type=submit]:hover{
     background-color: rgb(161, 80, 47);
     color: blanchedalmond;
 }
@@ -241,16 +268,21 @@ h1{
     display: inline;
 }
 .redes{
+    margin-top: 20px;
     text-align: center;
-
+}
+.telfinal{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
 }
 .mapa{
     float: right;
     box-sizing: border-box;
     padding: 20px;
-
+    border-radius: 10px;
 }
-
 .footer{
     clear:both;
     background:rgb(173, 68, 27);
